@@ -20,7 +20,7 @@ This React Native project is a comprehensive demonstration of integrating and ut
 
 | *Demo gif* |
 |---------------|
-| <img src="screenshots/demo.gif" width="250"> |
+| <img src="assets/demo.gif" width="250"> |
 
 ## Project Structure
 
