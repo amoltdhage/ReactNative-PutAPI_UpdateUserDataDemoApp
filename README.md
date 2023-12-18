@@ -43,7 +43,7 @@ The project is structured with the following key components:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/ReactNative-PutAPI-UpdateUserDataDemoApp.git
+    git clone https://github.com/amoltdhage/ReactNative-PutAPI_UpdateUserDataDemoApp.git
     ```
 
 2. **Navigate to the Project Directory:**
