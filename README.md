@@ -1,38 +1,43 @@
-# React Native Put API Update User Data Demo App
+# React Native User Data Management App
 
-This React Native project is a comprehensive demonstration of integrating and utilizing the PUT API method to update user data. The application fetches user data from a server and allows users to edit their details seamlessly. The code features a clean and modular structure for easy understanding and modification.
+This React Native project showcases a user data management system with robust integration of the PUT API method for updating user information. The application allows users to fetch data from a server, edit their details, and seamlessly update the server data. The code is structured for clarity and modularity, providing a practical example for learning and reference.
 
 ## Features
-- **Screenshots:** See below for visual representations of the app's functionality.
-- **Demo App:** Ideal for learning and understanding PUT API integration in React Native.
+
+- **Screenshots:** Visual representations of the app's functionality.
+- **Demo App:** Ideal for learning PUT API integration in React Native.
 - **Fetch User Data:** Retrieve user data from a remote server.
 - **Edit User Information:** Enable users to modify their name, age, and email.
 - **Update User Data:** Utilize PUT requests to update user information on the server.
+- **Validation:** Robust input validation to ensure data integrity during user editing.
+  - Name: Validates that the name contains only alphabets and single spaces between words.
+  - Age: Ensures that the age is a two-digit number between 10 and 99.
+  - Email: Verifies the presence of a valid email address.
 - **User Interface:** A clean and responsive user interface.
 
 ### Screenshots
 
-| Home Screen | Loading Indicator | User Data| Edit User | Updated User Data  |
-|-------------------|-------------------|-------------------|-------------------|-------------------|
-| <img src="assets/home_screen.png" width="250"> | <img src="assets/screenshot_loading.png" width="250"> | <img src="assets/screenshot_userData.png" width="250"> | <img src="assets/screenshot_editUser.png" width="250"> | <img src="assets/screenshot_updatedUserData.png" width="250"> |
+| Home Screen | Loading Indicator | User Data | Edit User | Updated User Data |
+|--------------|--------------------|-----------|-----------|-------------------|
+| ![Home Screen](assets/home_screen.png) | ![Loading Indicator](assets/screenshot_loading.png) | ![User Data](assets/screenshot_userData.png) | ![Edit User](assets/screenshot_editUser.png) | ![Updated User Data](assets/screenshot_updatedUserData.png) |
 
 ### Demo
 
 | *Demo gif* |
-|---------------|
-| <img src="assets/demo.gif" width="250"> |
+|-------------|
+| ![Demo](assets/demo.gif) |
 
 ## Project Structure
 
 The project is structured with the following key components:
 
-| Component              | Description                                                                         |
-|------------------------|-------------------------------------------------------------------------------------|
-| App Component          | The main component that orchestrates the functionality.                             |
-| User Data Fetching     | Utilizes the `fetchUserData` function to fetch user data from the server.             |
-| Edit User Data         | Implements the ability for users to edit their information using PUT requests.        |
-| Another Screen         | Another component or screen for additional functionality.                             |
-| Styling                | Utilizes StyleSheet for consistent and visually appealing UI.                        |
+| Component        | Description                                                      |
+|------------------|------------------------------------------------------------------|
+| App Component    | The main component orchestrating the app's functionality.        |
+| User Data Fetch  | Utilizes the `fetchUserData` function to fetch user data.         |
+| Edit User Data   | Allows users to edit information using PUT requests.             |
+| Another Screen   | Additional component or screen for extended functionality.       |
+| Styling          | Consistent and visually appealing UI with StyleSheet.             |
 
 ## Technologies Used
 
@@ -43,12 +48,12 @@ The project is structured with the following key components:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/ReactNative-PutAPI-UpdateUserDataDemoApp.git
+    git clone https://github.com/amoltdhage/ReactNative-UserDataManagementApp.git
     ```
 
 2. **Navigate to the Project Directory:**
     ```bash
-    cd ReactNative-PutAPI-UpdateUserDataDemoApp
+    cd ReactNative-UserDataManagementApp
     ```
 
 3. **Install Dependencies:**
@@ -70,14 +75,7 @@ The project is structured with the following key components:
    - Fetch user data by tapping "Fetch User Data" and observe the delayed fetch.
    - Edit user information by tapping "Edit" next to a user and update the data.
 
-This project provides a practical example of integrating PUT API functionality with React Native, making it an excellent resource for both learning and reference.
-
-
-
-
-
-
-
+This project serves as a practical example of integrating PUT API functionality in React Native, providing a valuable resource for learning and reference.
 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
