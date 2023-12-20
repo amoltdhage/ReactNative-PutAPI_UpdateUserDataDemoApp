@@ -25,7 +25,7 @@ This React Native project showcases a user data management system with robust in
 
 | *Demo gif* |
 |---------------|
-| <img src="screenshots/demo.gif" width="250"> |
+| <img src="assets/demo.gif" width="250"> |
 
 ## Project Structure
 
@@ -48,7 +48,7 @@ The project is structured with the following key components:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/ReactNative-PutAPI-UpdateUserDataDemoApp.git
+    git clone https://github.com/amoltdhage/ReactNative-PutAPI-UpdateUserDataDemoApp.git
     ```
 
 2. **Navigate to the Project Directory:**
