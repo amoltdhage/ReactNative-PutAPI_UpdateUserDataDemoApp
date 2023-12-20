@@ -17,15 +17,15 @@ This React Native project showcases a user data management system with robust in
 
 ### Screenshots
 
-| Home Screen | Loading Indicator | User Data | Edit User | Updated User Data |
-|--------------|--------------------|-----------|-----------|-------------------|
-| ![Home Screen](assets/home_screen.png) | ![Loading Indicator](assets/screenshot_loading.png) | ![User Data](assets/screenshot_userData.png) | ![Edit User](assets/screenshot_editUser.png) | ![Updated User Data](assets/screenshot_updatedUserData.png) |
+| Home Screen | Loading Indicator | User Data | Edit User | Validation | Updated User Data |
+|--------------|--------------------|-----------|-----------|-------------------|-------------------|
+| ![Home Screen](assets/home_screen.png) | ![Loading Indicator](assets/screenshot_loading.png) | ![User Data](assets/screenshot_userData.png) | ![Edit User](assets/screenshot_editUser.png) | ![Validation](assets/screenshot_validation) | ![Updated User Data](assets/screenshot_updatedUserData.png) |
 
 ### Demo
 
-| *Demo gif* |
-|---------------|
-| <img src="assets/demo.gif" width="250"> |
+| *Old Demo gif* | *New Demo gif* |
+|---------------|---------------|
+| <img src="ass/demo.gif" width="250"> | <img src="ass/new_demo.gif" width="250"> |
 
 ## Project Structure
 
